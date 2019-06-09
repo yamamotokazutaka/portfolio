@@ -1,0 +1,16 @@
+.header{
+  background-color: #2F4F4F;
+  height: 50px;
+  &__buttons{
+    display: flex;
+    float:right;
+    margin-top: 10px;
+    a{
+      color:white;
+      padding-right: 50px;
+      font-size: 22px;
+      vertical-align: center;
+      text-decoration: none;
+    }
+  }
+}

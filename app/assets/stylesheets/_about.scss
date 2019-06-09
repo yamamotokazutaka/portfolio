@@ -1,0 +1,68 @@
+// Place all the styles related to the about controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.main{
+  background-image: url("https://prog-8.com/images/html/advanced/top.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  opacity: 0.8;
+  padding-top: 10px;
+  &__title{
+    padding-top:0px;
+    padding-left: 20px;
+    h1{
+      display: inline;
+      font-size: 60px;
+      color: white;
+      opacity: 1;
+      margin-top: 0;
+      font-weight: normal;
+      animation-name:fadein;
+      animation-duration: 4s;
+    }
+    @keyframes fadein {
+      from{
+          opacity: 0;
+          transform: translateY(20px);
+      }
+      to{
+        opacity: 1;
+        transform: translateY(0);
+      }
+     }
+    }
+  &__buttons{
+    padding: 50px;
+    margin-top: 10px;
+    width: 300px;
+    height: 400px;
+    animation-name:fadein;
+    animation-duration:4s;
+    @keyframes fadein {
+      from{
+          opacity: 0;
+          transform: translateX(80px);
+      }
+      to{
+        opacity: 1;
+        transform: translateX(0);
+      }
+     }
+    a{
+      text-decoration: none;
+      color: black;
+      font-size: 30px;
+      opacity:1;
+      span{
+        padding-left: 10px;
+      }
+    }
+    a:hover{
+      color:red;
+    }
+    &__button{
+      margin-top:65px;
+    }
+  }
+}
