@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get "/about/profile" => "about#profile"
   get "/about/works" => "about#works"
   get "/about/contact" => "about#contact"
-  get "/about/others" => "about#others"
+  get "/about/photos" => "about#photos"
 end

@@ -1,0 +1,60 @@
+body{
+  background-color: #eeeeee;
+}
+.photos-main{
+  background-color: #eeeeee;
+  width: 100vw;
+  height:100vh;
+  &__title{
+    text-align: center;
+    padding:50px 100px 50px 100px;
+    animation-name:fade-in;
+    animation-duration: 4s;
+    @keyframes fade-in {
+      from{
+          opacity: 0;
+          transform: translateY(0px);
+      }
+      to{
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    span{
+      color:#FFA500;
+      font-size: 20px;
+    }
+    p{
+      margin:0;
+      font-size:50px;
+    }
+  }
+  &__contents{
+    float:center;
+    display: flex;
+    margin-top:60px;
+    animation-name:fadein;
+    animation-duration: 4s;
+    @keyframes fadein {
+      from{
+          opacity: 0;
+          transform: translateX(80px);
+      }
+      to{
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    &__content{
+      margin:0 auto;
+      img{
+        height: 300px;
+        width: 450px;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
