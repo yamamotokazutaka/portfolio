@@ -5,11 +5,14 @@
     %p profile
   .profile-main__contents
     .profile-main__contents__image
-      = image_tag"IMG_1421.jpg"
+      = image_tag"IMG_1421.JPG"
     .profile-main__contents__text
       %ul
         %li 名前：山本一貴
         %li 出身：兵庫県
         %li 経歴：新卒損保→Tech_Expert50期卒業→転職活動中
         %li 言語：Ruby, RubyOnRails, Html/Css, JavaScript
-        %li 趣味：写真, ランニング
+        %li 
+          趣味：ランニング,
+          %a{ :href => '/about/photos' }写真
+          
