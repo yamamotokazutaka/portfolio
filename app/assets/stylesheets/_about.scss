@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .main{
   background-image: url("https://prog-8.com/images/html/advanced/top.png");
+  // background-image: url(blur-close-up-desk-433604.jpg);
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -20,6 +21,7 @@
       font-weight: normal;
       animation-name:fadein;
       animation-duration: 4s;
+      font-family: 'Limelight', cursive;
     }
     @keyframes fadein {
       from{
@@ -56,6 +58,9 @@
       opacity:1;
       span{
         padding-left: 10px;
+      }
+      span.profile{
+        padding-left: 16px;
       }
     }
     a:hover{
