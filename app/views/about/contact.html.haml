@@ -3,8 +3,12 @@
   .contact-main__title
     %span お問い合わせ
     %p contact
+  .contact-main__text
+    %span お問い合わせフォームかtwitterのDMからお問い合わせください
   .contact-main__contacts
+    .contact-main__contacts__form
+      %iframe(src="https://docs.google.com/forms/d/e/1FAIpQLSfFubX4v-bs14fyB2o67v0RZV-fryTRo7YIllh6oRj_8Mwvpg/viewform?embedded=true" width="640" height="760" frameborder="0" marginheight="0" marginwidth="0")
     .contact-main__contacts__twitter
       %a{ :href => 'https://twitter.com/nN20xlZUKiSbF5S'}
         %i.fa.fa-twitter
-=render "./shared/footer"
+  =render "./shared/footer"
