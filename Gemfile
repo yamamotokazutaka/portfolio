@@ -8,7 +8,7 @@ gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
 
 # heroku deployのため
-# 開発環境(ローカル)ではSQLite3を使用
+# 開発環境(ローカル)ではsqLite3を使用
 gem 'sqlite3', group: :development
 
 # 本番環境(heroku)ではPostgreSQLを使用
