@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get "/about/works" => "about#works"
   get "/about/contact" => "about#contact"
   get "/about/photos" => "about#photos"
+  # test
 end
