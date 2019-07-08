@@ -15,4 +15,5 @@ class AboutController < ApplicationController
   def others
     
   end
+
 end
