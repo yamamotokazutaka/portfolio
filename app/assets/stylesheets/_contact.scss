@@ -88,5 +88,28 @@
         margin: auto;
       }
     }
+    &__instagram{
+      height: 760px;
+      width: 640px;
+      text-align:center;
+      vertical-align: middle;
+      position: relative;
+      i{
+        width: 64px;
+        height: 64px;
+        border-radius: 4px;
+        line-height: 64px;
+        font-weight: 400;
+        font-size: 36px;
+        color: #fff;
+        background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+      }
+    }
   }
 }
