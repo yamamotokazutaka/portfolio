@@ -4,10 +4,14 @@
     %span お問い合わせ
     %p contact
   .contact-main__text
-    %span お問い合わせフォームかtwitter,instagramのDMからお問い合わせください
+    %span{style: 'font-size: 28px;'} お問い合わせフォーム
+    %span、または
+    %span{style: 'font-size: 30px;'} twitter,instagram
+    %span のDMからお問い合わせください
   .contact-main__contacts
     .contact-main__contacts__form
       %iframe(src="https://docs.google.com/forms/d/e/1FAIpQLSfFubX4v-bs14fyB2o67v0RZV-fryTRo7YIllh6oRj_8Mwvpg/viewform?embedded=true" width="640" height="760" frameborder="0" marginheight="0" marginwidth="0")
+  .contact-main__contacts{style: 'margin-bottom: 100px;'}
     .contact-main__contacts__twitter
       =link_to "https://twitter.com/nN20xlZUKiSbF5S" ,:target => ["_blank"] do
         %i.fa.fa-twitter
