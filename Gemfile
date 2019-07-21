@@ -72,3 +72,4 @@ gem 'erb2haml'
 gem "font-awesome-rails"
 gem 'font-awesome-sass', '~> 5.8.1'
 gem "jquery-rails"
+gem "rails_12factor", group: :production
